@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-image: url('../img/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    margin: 3.5rem;
+    width: 40vw;
+    height: 80vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.head{
+    display: grid;
+    place-items: center;
+    margin-right: 4rem;
+}
+
+.form{
+    padding: 2rem;
+    width: 100%;
+    /* background: pink; */
+}
+
+input{
+    width: 330px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.email{
+    margin-top: 1rem;
+}
+
+.password{
+    margin-top: 1rem;
+}
+
+.email div{
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.password div{
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.password div i{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.password div i:hover{
+    color: black;
+}
+
+.forgot{
+    padding-top: 1rem;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #1d7d84;
+}
+
+.forgot a:hover{
+    color: #1ba4ad;
+}
+
+button{
+    margin-top: 1rem;
+    width: 400px;
+    height: 35px;
+    background: #26a2ab;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover{
+    background: #2fc8d3;
+}
+
+.other-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.other-login span a{
+    text-decoration: none;
+    color: #404040;
+    font-weight: 600;
+}
+
+.other-login span a:hover{
+    color: black;
+}
+
+.medsos{
+    display: flex;
+    gap: 3rem;
+}
+
+.medsos a{
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.medsos a:hover{
+    background: #ededed;
+}
+
+.medsos a img{
+    width: 25px;
+    height: 25px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    section{
+        width: 80vw;
+        height: 70dvh;
+    }
+}
+  
+  /* Untuk perangkat dengan lebar layar setidaknya 576px (misalnya: tablet) */
+@media only screen and (min-width: 576px){
+    section{
+        width: 60dvw;
+        height: 70dvh;
+    }
+    
+}
+  
+  /* Untuk perangkat dengan lebar layar setidaknya 768px (misalnya: tablet besar dan desktop kecil) */
+@media only screen and (min-width: 768px){
+    /* Tambahkan gaya CSS di sini */
+    section{
+        width: 60dvw;
+        height: 60dvh;
+    }
+}
+  
+  /* Untuk perangkat dengan lebar layar setidaknya 992px (misalnya: desktop) */
+@media only screen and (min-width: 992px) {
+    /* Tambahkan gaya CSS di sini */
+    section{
+        width: 50dvw;
+        height: 55dvh;
+    }
+}
+  
+  /* Untuk perangkat dengan lebar layar setidaknya 1200px (misalnya: desktop besar) */
+@media only screen and (min-width: 1200px) {
+    /* Tambahkan gaya CSS di sini */
+    section{
+        width: 40vw;
+        height: 80vh;
+    }
+} 
+  
